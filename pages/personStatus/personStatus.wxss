@@ -1,0 +1,19 @@
+/* pages/personStatus.wxss */
+page{
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F1F1;
+}
+.return-btn{
+  border-radius: 5rpx;
+  height: 50rpx;
+  background-color: #0C8CE5;
+  font-size: 20rpx;
+  color: #fff;
+  font-weight: 600;
+}
