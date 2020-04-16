@@ -1,4 +1,10 @@
 <!--pages/personStatus.wxml-->
 <view class="container">
+  <view class="card">
+  <view>
+    
+  </view>
+    <view class="photo">test</view>
+  </view>
   <button class="return-btn">返回首页</button>
 </view>
