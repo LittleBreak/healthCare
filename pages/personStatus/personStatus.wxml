@@ -1,10 +1,40 @@
 <!--pages/personStatus.wxml-->
 <view class="container">
-  <view class="card">
-  <view>
-    
-  </view>
-    <view class="photo">test</view>
-  </view>
-  <button class="return-btn">返回首页</button>
+<view class="bg"></view>
+	<view class="card">
+		<view class="basic-info">
+			<image class="avatar" src="./timg.jpg" mode="cover"></image>
+			<view class="time">
+				<view>2020年04月18日</view>
+				<view>09:21:11</view>
+			</view>
+			<image class="qrcode" src="./qrcode.jpg" mode="cover"></image>
+		</view>
+
+		<view class="photo">
+			<image class="self" src="./self.jpg" mode="cover"></image>
+		</view>
+		<view class="person-status">
+			<icon type="success" size="35" />
+			<text>未见异常</text>
+			<image class="question" src="./issue.jpg" mode="cover"></image>
+		</view>
+		<view class="info-item">
+			<view class="info-item-title">姓名：</view>
+			<view class="info-item-value">蔡**</view>
+		</view>
+		<view class="info-item">
+			<view class="info-item-title">身份证号：</view>
+			<view class="info-item-value">37**************14</view>
+		</view>
+		<view class="info-item">
+			<view class="info-item-title">查询时间：</view>
+			<view class="info-item-value">04-18 09:21</view>
+		</view>
+		<view class="info-item">
+			<view class="info-item-title">失效时间：</view>
+			<view class="info-item-value warn">04-19 09:21</view>
+		</view>
+	</view>
+	<view class="return-btn">返回首页</view>
 </view>
