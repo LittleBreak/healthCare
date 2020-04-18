@@ -12,7 +12,7 @@
 		</view>
 
 		<view class="photo">
-			<image class="self" src="./self.jpg" mode="cover"></image>
+			<image class="self" src="./self1.jpg" mode="cover"></image>
 		</view>
 		<view class="person-status">
 			<icon type="success" size="35" />
