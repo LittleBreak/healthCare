@@ -16,6 +16,7 @@ Page({
       url: '../personStatus/personStatus'
     })
   },
+  
   clickme: function(){
     wx.scanCode({
       success: (res) => {
