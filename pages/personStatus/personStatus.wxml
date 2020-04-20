@@ -1,16 +1,15 @@
 <!--pages/personStatus.wxml-->
 <view class="container">
-<view class="bg"></view>
+	<view class="bg"></view>
 	<view class="card">
 		<view class="basic-info">
 			<image class="avatar" src="./timg.jpg" mode="cover"></image>
 			<view class="time">
-				<view>{{date.getFullYear()}}年04月18日</view>
-				<view>09:21:11</view>
+				<view>{{day}}</view>
+				<view>{{time}}</view>
 			</view>
 			<image class="qrcode" src="./qrcode.jpg" mode="cover"></image>
 		</view>
-
 		<view class="photo">
 			<image class="self" src="./self1.jpg" mode="cover"></image>
 		</view>
