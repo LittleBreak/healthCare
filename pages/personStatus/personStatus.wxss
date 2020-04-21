@@ -22,7 +22,7 @@
   border-radius: 20rpx;
   width: 100%;
   padding-top: 40rpx;
-  margin: 35rpx 0px;
+  margin: 35rpx 0px 30rpx 0rpx;
 }
 .avatar{
   width: 78rpx;
@@ -33,7 +33,6 @@
   height: 400rpx;
   padding: 10rpx;
   border: 15rpx dotted #975FE6;
-  border-radius: 15rpx;
 }
 .photo{
   text-align: center;
@@ -98,4 +97,10 @@
 }
 .warn{
   color: red;
+}
+.org{
+  margin-top: 30rpx;
+  color: #B9B9B9;
+  text-align: center;
+  font-size: 26rpx;
 }
