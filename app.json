@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/personStatus/personStatus",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/personStatus/personStatus"
+    "pages/logs/logs"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
