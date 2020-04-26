@@ -14,7 +14,7 @@
 			<image class="self" src="./self1.jpg" mode="cover"></image>
 		</view>
 		<view class="person-status">
-			<icon type="success" size="38" />
+			<icon type="success" size="45" />
 			<text>未见异常</text>
 			<image class="question" src="./issue.jpg" mode="cover"></image>
 		</view>

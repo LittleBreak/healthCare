@@ -33,7 +33,7 @@
   width: 400rpx;
   height: 400rpx;
   padding: 10rpx;
-  border: 15rpx dotted #975FE6;
+  border: 15rpx dotted #8fe2e3;
 }
 .photo{
   text-align: center;
@@ -69,16 +69,16 @@
   margin: 20rpx 0rpx;
 }
 .person-status text{
-  font-size: 50rpx;
-  color: #09BB07;
-  padding: 0px 20rpx;
+  font-size: 58rpx;
+  color: #1ec90d;
+  padding: 0px 15rpx;
   font-weight: 900;
-  line-height: 70rpx;
+  line-height: 90rpx;
 }
 .question{
   width: 50rpx;
   height: 50rpx;
-  padding-top: 10rpx;
+  padding-top: 18rpx;
 }
 .info-item{
   display: flex;
