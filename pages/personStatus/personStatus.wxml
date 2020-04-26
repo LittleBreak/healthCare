@@ -36,4 +36,5 @@
 		</view>
 	</view>
 	<view class="return-btn" bindtap="goHome">返回首页</view>
+	<view class="org">北京市大数据中心</view>
 </view>
