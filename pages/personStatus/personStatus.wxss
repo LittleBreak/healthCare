@@ -27,6 +27,7 @@
 .avatar{
   width: 78rpx;
   height: 78rpx;
+  margin-left: 35rpx;
 }
 .self{
   width: 400rpx;

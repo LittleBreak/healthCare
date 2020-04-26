@@ -6,7 +6,9 @@ Page({
    */
   data: {
     day: '',
-    time: ''
+    time: '',
+    expirDate: '',
+    queryDate: ''
   },
   goHome(){
     wx.navigateBack();
@@ -45,8 +47,19 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    console.log('onready')
     this.intervalId = setInterval(this.updateDate, 1000)
+    let date = new Date()
+    const month = this.formatDate(date.getMonth()+1)
+    const day = this.formatDate(date.getDate())
+
+    const hour = this.formatDate(date.getHours())
+    const min = this.formatDate(date.getMinutes())
+
+    let queryDate = `${month}-${day} ${hour}:${min}`
+    this.setData({
+      queryDate: queryDate,
+      expirDate: `${month}-${day} 24:00`
+    })
   },
 
   /**
