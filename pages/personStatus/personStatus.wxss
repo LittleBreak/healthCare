@@ -35,6 +35,7 @@
   padding: 10rpx;
   border: 15rpx dotted #8fe2e3;
 }
+
 .photo{
   text-align: center;
   
